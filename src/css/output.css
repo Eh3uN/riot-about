@@ -2655,6 +2655,12 @@
       border-bottom-left-radius: var(--radius-2xl);
     }
   }
+  .md\:rounded-b-lg {
+    @media (width >= 48rem) {
+      border-bottom-right-radius: var(--radius-lg);
+      border-bottom-left-radius: var(--radius-lg);
+    }
+  }
   .md\:bg-transparent {
     @media (width >= 48rem) {
       background-color: transparent;
