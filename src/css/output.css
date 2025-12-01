@@ -1460,6 +1460,9 @@
   .w-full {
     width: 100%;
   }
+  .w-px {
+    width: 1px;
+  }
   .max-w-\[1440px\] {
     max-width: 1440px;
   }
@@ -1706,6 +1709,9 @@
   }
   .bg-\[\#262729d9\] {
     background-color: #262729d9;
+  }
+  .bg-\[\#868686\] {
+    background-color: #868686;
   }
   .bg-\[\#FDB713\] {
     background-color: #FDB713;
@@ -2677,6 +2683,11 @@
   .md\:px-8 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:px-\[81px\] {
+    @media (width >= 48rem) {
+      padding-inline: 81px;
     }
   }
   .md\:py-14 {
